@@ -16,12 +16,12 @@
             android:id="@+id/button_first"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:text="Séries"
+            android:layout_marginBottom="416dp"
+            android:text="Sobre"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.212" />
+            app:layout_constraintStart_toEndOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@+id/button4"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/textview_first"
@@ -30,26 +30,28 @@
             android:text="Bem vindo ao mundo das Séries"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            tools:layout_editor_absoluteY="75dp" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="444dp"
             android:text="Categorias"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/button_first"
-            app:layout_constraintTop_toBottomOf="@+id/button_first"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toEndOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/button5"
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="95dp"
             android:layout_height="50dp"
-            android:text="Sobre"
-            tools:layout_editor_absoluteX="221dp"
-            tools:layout_editor_absoluteY="234dp" />
+            android:text="Séries"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="144dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
